@@ -6,6 +6,12 @@ export const env = createEnv({
     // Server-only secrets, never exposed to client
     DATABASE_URL: z.url(),
     RESEND_API_KEY: z.string().min(5),
+    BETTER_AUTH_URL: z.url(),
+    BETTER_AUTH_SECRET: z.string().min(5),
+    GITHUB_CLIENT_ID: z.string().min(5),
+    GITHUB_CLIENT_SECRET: z.string().min(5),
+    GOOGLE_CLIENT_ID: z.string().min(5),
+    GOOGLE_CLIENT_SECRET: z.string().min(5),
   },
   client: {
     NEXT_PUBLIC_BASE_URL: z.url(), // Public values safe for client
