@@ -1,5 +1,7 @@
 import { ThemeToggle } from "@/components/theme-toggle";
+import { requireAuth } from "@/modules/auth/lib/auth.utils";
 
-export default function Home() {
+export default async function Home() {
+  await requireAuth();
   return <ThemeToggle />;
 }
