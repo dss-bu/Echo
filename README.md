@@ -52,17 +52,15 @@ process, please check out the [SETUP.md](./docs/SETUP.md) file.
 
 ## <span style="color: #d87943;">Built with</span>
 
-|   **Component**        |            **Technology**                                                                             |
-|------------------------|-------------------------------------------------------------------------------------------------------|
-| Framework              | ![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)  |
-| Language               | ![Typescript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)  |
-| Database               | ![PostgreSQL](https://img.shields.io/badge/postgresql-4169e1?style=for-the-badge&logo=postgresql&logoColor=white) |
-| ORM                    | ![Prisma](https://img.shields.io/badge/Prisma-3982CE?style=for-the-badge&logo=Prisma&logoColor=white) |
-| Styling                | ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white) |
-| UI Components          | ![shadcn/ui](https://img.shields.io/badge/shadcn%2Fui-000?logo=shadcnui&logoColor=fff&style=for-the-badge) |
-| Tooling                | ![ESLint](https://img.shields.io/badge/ESLint-3A33D1?logo=eslint) ![Prettier](https://img.shields.io/badge/Prettier-F7B93E?logo=prettier&logoColor=ffffff)  |
-| Deployment             | ![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white) |
+| **Component** | **Technology**                                                                                                                                             |
+| ------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Framework     | ![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)                                                       |
+| Language      | ![Typescript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)                                          |
+| Database      | ![PostgreSQL](https://img.shields.io/badge/postgresql-4169e1?style=for-the-badge&logo=postgresql&logoColor=white)                                          |
+| ORM           | ![Prisma](https://img.shields.io/badge/Prisma-3982CE?style=for-the-badge&logo=Prisma&logoColor=white)                                                      |
+| Styling       | ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)                               |
+| UI Components | ![shadcn/ui](https://img.shields.io/badge/shadcn%2Fui-000?logo=shadcnui&logoColor=fff&style=for-the-badge)                                                 |
+| Tooling       | ![ESLint](https://img.shields.io/badge/ESLint-3A33D1?logo=eslint) ![Prettier](https://img.shields.io/badge/Prettier-F7B93E?logo=prettier&logoColor=ffffff) |
+| Deployment    | ![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)                                                      |
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
