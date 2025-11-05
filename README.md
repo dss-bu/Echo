@@ -4,8 +4,7 @@
 <br />
 <div align="center">
     <a href="https://github.com/dss-bu/echo" style="display: flex; justify-content: center;">
-        <img src="./public/logo.svg" alt="Logo" width="80"  height="80">
-        <span style="font-size: 4em; color: white; font-weight: bold; font-family: 'Poppins', sans-serif;">Echo</span>
+        <img src="docs/assets/Echo_brandname.svg" alt="Logo" width="230">
     </a>
     <p align="center">
         <span style="color: white; font-family: 'Poppins', sans-serif;">A user-friendly API development and testing platform</span>
@@ -26,7 +25,7 @@
 
 ## <span style="color: #d87943;">About The Project</span>
 
-<img src="Docs/assets/Echo_banner.svg" alt="Echo Banner" style="width: 100%;">
+<img src="docs/assets/Echo_banner.svg" alt="Echo Banner" style="width: 100%;">
 
 Echo is a powerful, intuitive tool designed to streamline your API development workflow, directly on your web browser. Built for developers who need a reliable companion for testing, debugging, and documenting HTTP requests. Fueled by Open Source, Echo provides a clean, efficient environment for working with REST APIs, GraphQL endpoints, and webhooks.
 
