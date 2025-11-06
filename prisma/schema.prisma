@@ -8,19 +8,19 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 
-// This is just an example table
-
 model User {
   id    String @id @default(cuid())
   name  String
   email String @unique
 
-  createdAt     DateTime  @default(now())
-  emailVerified Boolean   @default(false)
-  image         String?
-  updatedAt     DateTime  @default(now()) @updatedAt
-  sessions      Session[]
-  accounts      Account[]
+  createdAt        DateTime          @default(now())
+  emailVerified    Boolean           @default(false)
+  image            String?
+  updatedAt        DateTime          @default(now()) @updatedAt
+  sessions         Session[]
+  accounts         Account[]
+  workspaces       Workspace[]
+  workspaceMembers WorkspaceMember[]
 
   @@map("user")
 }
@@ -68,4 +68,35 @@ model Verification {
   updatedAt  DateTime @default(now()) @updatedAt
 
   @@map("verification")
+}
+
+model Workspace {
+  id          String            @id @default(cuid())
+  name        String
+  description String?
+  ownerId     String
+  owner       User              @relation(fields: [ownerId], references: [id], onDelete: Cascade)
+  members     WorkspaceMember[]
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @default(now()) @updatedAt
+}
+
+model WorkspaceMember {
+  id          String              @id @default(cuid())
+  workspaceId String
+  userId      String
+  role        WorkspaceMemberRole @default(MEMBER)
+
+  workspace Workspace @relation(fields: [workspaceId], references: [id], onDelete: Cascade)
+  user      User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @default(now()) @updatedAt
+}
+
+enum WorkspaceMemberRole {
+  OWNER_ADMIN
+  ADMIN
+  MEMBER
 }
